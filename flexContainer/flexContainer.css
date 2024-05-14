@@ -1,0 +1,34 @@
+:root{
+    --std-marging: 10px;
+    --box-background-color: turquoise;
+    --box-size: 160px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    /* Pour visualiser les différents block */
+    /* border: solid 1px red; */
+}
+
+h1{
+    margin: var(--std-marging);
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-container > div {
+    display: flex;
+    height: var(--box-size);
+    width: var(--box-size);
+    margin: var(--std-marging);
+    background-color: var(--box-background-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

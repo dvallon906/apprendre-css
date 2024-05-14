@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "fontNSG";
+    src: url(../assets/fontNSG.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "fontNSG", sans-serif;
+
+    /* Pour visualiser les différents block */
+    /* border: solid 1px red;  */
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-container > div {
+    display: flex;
+    width: 25%;
+    height: 160px;
+    margin: 10px;
+    color: white;
+    background-color: #00B7DB; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2em;
+  }

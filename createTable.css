@@ -9,18 +9,21 @@
     font-family: "fontNSG", sans-serif;
 
     /* Pour visualiser les différents block */
-    border: solid 1px red; 
+    /* border: solid 1px red;  */
 }
 
 /* Pour la table, les ligne et les colonnes */
 table, tr, td {
+    
     border: 1px solid;
   }
 
   /* Pour la table */
 table {
+    padding: 30px;
+    margin: auto;
     border: 3px solid #00B7DB;
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
   }
 

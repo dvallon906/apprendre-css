@@ -1,0 +1,20 @@
+/* Pour la table, les ligne et les colonnes */
+table, tr, td {
+    border: 1px solid;
+  }
+
+  /* Pour la table */
+table {
+    border: 3px solid;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .cellEntete{
+    background-color: brown;
+    color: white;
+  }
+
+  .cellCorp{
+    color: brown
+  }

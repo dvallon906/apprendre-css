@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "fontNSG";
+    src: url(../assets/fonts/fontNSG.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "fontNSG", sans-serif;
+
+    /* Pour visualiser les différents block */
+    border: solid 1px red; 
+}
+
 /* Pour la table, les ligne et les colonnes */
 table, tr, td {
     border: 1px solid;
@@ -5,16 +19,22 @@ table, tr, td {
 
   /* Pour la table */
 table {
-    border: 3px solid;
+    border: 3px solid #00B7DB;
     width: 100%;
     border-collapse: collapse;
   }
 
   .cellEntete{
-    background-color: brown;
+    background-color: #00B7DB; 
     color: white;
+    text-align: center;
   }
 
   .cellCorp{
     color: brown
+  }
+
+  .col1{
+    width: 20%;
+    min-width: 100px;
   }
